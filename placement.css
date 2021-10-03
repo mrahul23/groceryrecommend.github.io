@@ -1,0 +1,310 @@
+*{
+	margin:0px;
+	padding:0px;
+	background-color:none;
+	font-family: 'Flamenco', cursive;
+}
+.avatar{
+	padding-left: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    background-color: : transparent;
+}
+
+.bgimg
+{
+	background-image: url('groc2.jpg');
+	
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.menu
+{
+	width: 100%;
+	height: 100px;
+	background-color:black;
+	font-family: 'Flamenco', cursive;
+}
+.leftmenu{
+	width: 30%;
+	line-height:100px;
+	float: left;
+	padding-left: 30px;
+}
+.leftmenu h2{
+	padding-left: 70px;
+	color: orange ;
+	font-size: 24px;
+	font-weight: bold; 
+}
+.rightmenu{
+	width: 60%;
+	height:180px;
+	float: right;
+
+}
+.rightmenu ul li {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	display: inline-block;
+	line-height:100px;
+	margin-left:60px;
+	text-transform: uppercase;
+}
+.rightmenu ul li:hover
+{
+	color:orange; 
+}
+.text
+{
+	margin-top: 290px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Josefin Slab', serif;
+}
+.text h4
+{	
+	margin: 14px 0px;
+	
+	font-size:50px;
+	font-family: 'Cinzel', serif;
+	color: orange;
+
+}
+
+.text h5
+{
+	margin: 14px 0px;
+	font-weight:bold;
+	font-size:40px;
+	color:orange;
+	letter-spacing: 3px;
+	
+
+}
+#fbutton
+{
+	background-color: transparent;
+	width: 150px;
+	color: black;
+	border:double;
+	line-height:40px;
+	margin: 14px 0px;
+	margin-right: 30px;
+	font-size: 20px;
+	border: 3px solid orange;
+	border-radius: 15px;
+	text-transform: uppercase;
+}
+#fbutton:hover
+{
+background-color: orange;
+}
+#sbutton:hover
+{
+background-color: orange;
+}
+
+#sbutton
+{
+	text-decoration-color: black;
+	background-color: transparent;
+	width: 150px;
+	color: black;
+	border: double;
+	line-height:40px;
+	margin: 14px 0px;
+	font-size: 20px;
+	border: 3px solid orange;
+	text-transform: uppercase;
+	border-radius: 15px;
+}
+.anm
+{
+	animation: colorchangeSUCCESS 1s infinite;
+}
+@keyframes colorchangeSUCCESS
+{
+	0%{color: white;}
+	25%{color: blue;}
+	50%{color: green;}
+	75%{color: purple;}
+	100%{color: orange;}
+}
+
+.table
+{
+	width: 1513px;
+	height: 400px;
+	background-color:#dddddd;
+	font-family: 'Flamenco', cursive;
+	border: 3px solid orange;
+	border-radius: 15px;
+}
+.lefttable{
+	width: 43%;
+	line-height:100px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 20px;
+	color: orange;
+	font-size: 40px;
+
+}
+.lefttable h3 h5{
+	padding-left: 70px;
+	color: orange ;
+	font-size: 40px;
+	font-weight: bold; 
+	
+}
+.righttable{
+	width: 43%;
+	height:180px;
+	float: right;
+	padding-top: 30px;
+	color: orange;
+	font-size: 40px;
+	line-height: 100px;
+
+}
+.righttable h3 h5{
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	line-height:100px;
+	margin-left:60px;
+	text-transform: uppercase;
+	
+}
+.about
+{
+	width: 1513px;
+	height: 100px;
+	background-color: rgba(0,0,0,1);
+	font-family: 'Flamenco', cursive;
+	border: 3px solid orange;
+	
+	border: collapse;
+
+}
+.end{
+	width: 60%;
+	line-height:100px;
+	float: left;
+	padding-left:25px;
+}
+.end h2{
+	text-align: center;
+	padding-left: 500px;
+	color: orange ;
+	font-size: 24px;
+	font-weight: bold; 
+}
+.bookContainer
+{
+	width: 80%;
+    display: inline-block;
+    
+}
+.bookContainer h3
+{
+	font-size: 24px;
+	color: orange;
+    display: inline-block;
+    }
+    .card {
+  padding-top: 50px;
+  box-shadow: 0 14px 13px 0 rgba(0, 0, 0, 0.2);
+  width: 1000px;
+  height: 300px;
+  
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+    
+    .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.bookContainer:hover .overlay {
+  opacity: 1;
+}
+    .upper table,td,tr
+{ border: 2px solid black;
+	top:50px;
+	text-align: center;
+	font-family: 'Flamenco', cursive;
+	font-size:30px;
+	border-collapse: collapse;
+	opacity: 0.95;
+	line-height: 100px;
+}
+.aim
+{
+	margin-top: 100px;
+	text-align: left;
+	font-family: 'Flamenco', cursive;
+	line-height: 40px;
+	font-size:24px;
+}
+.aim 
+{
+	margin-left:30px;
+	text-align: left;
+	font-family: 'Flamenco', cursive;
+	line-height: 40px;
+	
+}
+

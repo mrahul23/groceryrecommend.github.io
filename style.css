@@ -1,0 +1,265 @@
+*{
+	margin:0px;
+	padding:0px;
+	background-color:none;
+}
+.avatar{
+	padding-left: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    background-color: : transparent;
+}
+.avatar1{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1431px;
+    left: 1250px;
+    background-color: : transparent;
+}.avatar2{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1431px;
+    left: 1140px;
+    background-color: : transparent;
+}.avatar3{
+	
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    top: 1431px;
+    left: 1370px;
+    background-color: : transparent;
+}
+.bgimg
+{
+	background-image: url('groc1.jpg');
+	background-size: 130% 130%;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.menu
+{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.4);
+	font-family: 'Flamenco', cursive;
+}
+.leftmenu{
+	width: 30%;
+	line-height:100px;
+	float: left;
+	padding-left: 30px;
+}
+.leftmenu h2{
+	padding-left: 70px;
+	color: orange ;
+	font-size: 24px;
+	font-weight: bold; 
+}
+.rightmenu{
+	width: 60%;
+	height:180px;
+	float: right;
+
+}
+.rightmenu ul li {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	display: inline-block;
+	line-height:100px;
+	margin-left:60px;
+	text-transform: uppercase;
+}
+.rightmenu ul li:hover
+{
+	color:orange; 
+}
+.text
+{
+	margin-top: 150px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Josefin Slab', serif;
+}
+.text h3
+{	
+	margin: 14px 0px;
+	font-weight:lighter;
+	font-size:50px;
+	font-family: 'Cinzel', serif;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	color: orange;
+
+}
+
+.text h5
+{
+	margin: 14px 0px;
+	font-weight:bold;
+	font-size:40px;
+	color:orange;
+	letter-spacing: 3px;
+	
+
+}
+#fbutton
+{
+	background-color: transparent;
+	width: 150px;
+	color: black;
+	border:double;
+	line-height:40px;
+	margin: 14px 0px;
+	margin-right: 30px;
+	font-size: 20px;
+	border: 3px solid orange;
+	border-radius: 15px;
+	text-transform: uppercase;
+}
+#fbutton:hover
+{
+background-color: orange;
+}
+#sbutton:hover
+{
+background-color: orange;
+}
+
+#sbutton
+{
+	text-decoration-color: black;
+	background-color: transparent;
+	width: 150px;
+	color: black;
+	border: double;
+	line-height:40px;
+	margin: 14px 0px;
+	font-size: 20px;
+	border: 3px solid orange;
+	text-transform: uppercase;
+	border-radius: 15px;
+}
+.anm
+{
+	animation: colorchangeSUCCESS 1s infinite;
+}
+@keyframes colorchangeSUCCESS
+{
+	0%{color: white;}
+	25%{color: blue;}
+	50%{color: green;}
+	75%{color: purple;}
+	100%{color: orange;}
+}
+
+.table
+{
+	width: 1513px;
+	height: 400px;
+	background-color:#dddddd;
+	font-family: 'Flamenco', cursive;
+	border: 3px solid orange;
+	border-radius: 15px;
+}
+.lefttable{
+	width: 43%;
+	line-height:100px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 20px;
+	color: orange;
+	font-size: 40px;
+
+}
+.lefttable h3 h5{
+	padding-left: 70px;
+	color: orange ;
+	font-size: 40px;
+	font-weight: bold; 
+	
+}
+.righttable{
+	width: 43%;
+	height:180px;
+	float: right;
+	padding-top: 30px;
+	color: orange;
+	font-size: 40px;
+	line-height: 100px;
+
+}
+.righttable h3 h5{
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	line-height:100px;
+	margin-left:60px;
+	text-transform: uppercase;
+	
+}
+.about
+{
+	width: 1513px;
+	height: 100px;
+	background-color: rgba(0,0,0,1);
+	font-family: 'Flamenco', cursive;
+	border: 3px solid orange;
+	
+	border: collapse;
+
+}
+.end{
+	width: 60%;
+	line-height:100px;
+	float: left;
+	padding-left:25px;
+}
+.end h2{
+	text-align: center;
+	padding-left: 500px;
+	color: orange ;
+	font-size: 24px;
+	font-weight: bold; 
+}
+.bookContainer
+{
+	width: 33%;
+    display: inline-block;
+    
+}
+.bookContainer h3
+{
+	font-size: 24px;
+	color: orange;
+    display: inline-block;
+    }
+    .upper table,td,tr
+{ border: 2px solid black;
+	text-align: center;
+	font-family: 'Flamenco', cursive;
+	font-size:30px;
+	border-collapse: collapse;
+	opacity: 0.95;
+	line-height: 100px;
+}
+.aim
+{
+	top: 550px;
+	text-align: center;
+	font-family: 'Flamenco', cursive;
+	font-size:24px;
+}
